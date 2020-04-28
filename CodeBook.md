@@ -68,4 +68,7 @@ secTidySet <- secTidySet[order(secTidySet$subjectId, secTidySet$activityId),]
 ```{r}
 write.table(secTidySet, "tidydata_final.txt", row.name=FALSE)
 ```
-
+### The names of varibales are:
+```{r setup, include=FALSE}
+names(secTidySet)
+```
